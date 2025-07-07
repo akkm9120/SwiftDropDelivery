@@ -1,0 +1,5 @@
+{
+  "name": "SwiftDrop Delivery App",
+  "description": "A React application for managing and tracking parcel deliveries, allowing users to request deliveries and drivers to manage them.",
+  "requestFramePermissions": []
+}
