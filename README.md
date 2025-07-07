@@ -1,14 +1,35 @@
-# Run and deploy your AI Studio app
+# SwiftDrop Delivery App
 
-This contains everything you need to run your app locally.
+A modern React delivery management application built with TypeScript and Vite.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+   ```bash
+   npm install
+   ```
+
+2. Run the app:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Open your browser to `http://localhost:5173`
+
+## Features
+
+- User authentication and dashboard
+- Delivery request management
+- Real-time driver tracking simulation
+- Responsive modern UI with Tailwind CSS
+- TypeScript for type safety
+
+## Build for Production
+
+```bash
+npm run build
+```

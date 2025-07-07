@@ -1,4 +1,3 @@
-
 export interface User {
   id: string;
   email: string;
@@ -17,7 +16,12 @@ export interface ParcelDetails {
   parcelHeightCm: number;
 }
 
-export type DeliveryStatus = 'pending_pickup' | 'in_transit' | 'delivered' | 'cancelled' | 'searching_driver';
+export type DeliveryStatus =
+  | "pending_pickup"
+  | "in_transit"
+  | "delivered"
+  | "cancelled"
+  | "searching_driver";
 
 export interface DeliveryRequest {
   id: string;
@@ -42,16 +46,4 @@ export interface Driver {
 export interface Coordinates {
   latitude: number;
   longitude: number;
-}
-
-export interface GroundingChunkWeb {
-  uri: string;
-  title: string;
-}
-
-export interface GroundingChunk {
-  web?: GroundingChunkWeb;
-  retrievedContext?: {
-    text?: string;
-  };
 }
